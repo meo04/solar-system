@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Embedded Vimeo Video</title>
+    <style>
+        .video-container {
+            position: relative;
+            padding: 56.25% 0 0 0; /* Aspect ratio (16:9) */
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 50%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Embedded Vimeo Video</h1>
+
+    <div class="video-container">
+        <iframe src="https://player.vimeo.com/video/881549385?badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" title="Mercury"></iframe>
+    </div>
+
+    <script src="https://player.vimeo.com/api/player.js"></script>
+</body>
+</html>
